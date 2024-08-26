@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If-else</title>
+</head>
+<body>
+    <h1>hy im mahak chhipa </h1>
+    <button  onclick="abc()"> submit me </button>
+    <script>
+     let a = 800;
+     let b = 600;
+     if (a>b){
+        console.log("a is grater then b");  
+     }
+     else if(a==b){
+        console.log("a and b is equal to each other ");
+     }
+     else {
+console.log("a and b is not equal or greater then so its wrong");
+     }
+     a>b?console.log("a is greater then b"):console.log("b is greater then a");
+     function abc(){
+       document.write("you are inside the function");
+       console.log("you are in console window")
+      
+     }
+//      const countvow=(str)=>{
+//         let count =0;
+//         for (const char of str){
+//             if(
+//                 char ==="a"||
+//                 char ==="e"||
+//                 char ==="i"||
+//                 char ==="o"||
+//                 char ==="u"
+//             ){
+//             count ++;
+//         }
+//         }
+//         return count;
+//      };
+//      let languages = ["JavaScript", "Java", "Python"];
+
+// let constructor = languages.constructor;
+// console.log(constructor)
+
+const alphabate=["A","B,","C","D"]
+let iterator = alphabate.entries();
+for (let entry of iterator) {
+  console.log(entry);
+}
+var fruits =['Apple','Banana','Date','Mango','Grapes'];
+fruits.fill("Cherry");
+console.log(fruits);
+let numbers =[1,2,3,4,5,6,7,8,9];
+function checkEven(number){
+    if (number%2==  0)
+    return true;
+else{
+    return false;
+}
+}
+let evennumbers =numbers.filter(checkEven);
+console.log(evennumbers);
+let result1 = 'c'.localeCompare('b');
+console.log(result1);
+    </script>
+</body>
+</html>
