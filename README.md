@@ -4,4 +4,8 @@ For example, JavaScript provides language primitives like string and number, but
 
 This means that your existing working JavaScript code is also TypeScript code. The main benefit of TypeScript is that it can highlight unexpected behavior in your code, lowering the chance of bugs.
 
-This tutorial provides a brief overview of TypeScript, focusing on its type system.
+This tutorial provides a brief overview of TypeScript, focusing on its type system. 
+For example, JavaScript provides language primitives like string and number, but it doesn’t check that you’ve consistently assigned these. TypeScript does.
+
+This means that your existing working JavaScript code is also TypeScript code. The main benefit of TypeScript is that it can highlight unexpected behavior in your code, lowering the chance of bugs.
+
